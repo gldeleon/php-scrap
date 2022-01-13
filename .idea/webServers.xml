@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="0fffb09e-7fbd-4e8a-ac89-d591ed44d56b" name="aldebaran" url="http://api-v2-test.totalcheck.mx.gdeleon/">
+        <fileTransfer rootFolder="/var/www/html/totalcheck_api_core/public_html" accessType="SFTP" host="192.168.100.18" port="22" sshConfigId="55ba5f41-b854-4a47-9cbf-cb4323f3650a" sshConfig="gdeleon@192.168.100.18:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

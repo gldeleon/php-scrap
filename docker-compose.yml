@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+    web:
+        build: .
+        container_name: "dentalia-profile"
+        restart: "always"
+        ports:
+            - "9001:80"
+        volumes:
+            - "./:/var/www/html/"
+        extra_hosts:
+            - "dentalia-profile.local:127.0.0.1"
